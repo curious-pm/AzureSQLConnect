@@ -1,7 +1,6 @@
 ## Join the Community  
 [Join Curious PM Community](https://curious.pm) to connect, share, and learn with others!
-
-
+---
 # Azure SQL Database Interaction Guide
 
 This repository demonstrates how to interact with an Azure-hosted SQL Database using Python. The provided script showcases how to connect to the database, check for existing columns, add missing ones, insert sample data, and retrieve records.
