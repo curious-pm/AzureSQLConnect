@@ -1,4 +1,4 @@
-## Join the Community  
+### Join the Community  
 [Join Curious PM Community](https://curious.pm) to connect, share, and learn with others!
 ---
 # Azure SQL Database Interaction Guide
