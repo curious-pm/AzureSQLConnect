@@ -1,8 +1,15 @@
+## Join the Community  
+[Join Curious PM Community](https://curious.pm) to connect, share, and learn with others!
+
+
 # Azure SQL Database Interaction Guide
 
 This repository demonstrates how to interact with an Azure-hosted SQL Database using Python. The provided script showcases how to connect to the database, check for existing columns, add missing ones, insert sample data, and retrieve records.
 
 **Note:** This repository is for educational purposes only.
+---
+## What the Code Does  
+The code helps users connect to an Azure SQL Database, verify table structures, add missing columns, insert sample data, and retrieve records for analysis. It ensures smooth interaction with the database and follows best practices for secure operations.
 
 ---
 
@@ -29,6 +36,27 @@ pip install sqlalchemy  # For sqlalchemy
 ```
 
 ---
+## Folder Structure  
+
+```
+azure_sql_connect/
+├── README.md             # Documentation explaining the project and usage.
+├── main.py               # Main script for database interaction.
+└── requirements.txt      # List of required Python libraries to run the application.
+```
+### Explanation of Files  
+
+- **README.md**  
+  Provides details on project setup, usage, and security considerations.
+
+- **main.py**  
+  Handles connection, schema checking, data insertion, and retrieval.
+
+- **requirements.txt**  
+  Contains dependencies needed to run the application.
+
+--- 
+
 
 ## Connecting to Azure SQL Database
 
@@ -158,6 +186,28 @@ for row in rows:
 3. Print the retrieved data for verification.
 
 ---
+## What Happens Step by Step  
+
+1. **Connect to Azure SQL Database:**  
+   - Establishes a secure connection using credentials.  
+   
+2. **Check for Missing Columns:**  
+   - Ensures required columns exist in the table.  
+   
+3. **Add Columns if Needed:**  
+   - Adds missing columns to match expected structure.  
+   
+4. **Insert Sample Data:**  
+   - Populates the table with test records.  
+   
+5. **Retrieve Data:**  
+   - Fetches and displays data for validation.  
+   
+6. **Close Connection:**  
+   - Safely closes the database connection after processing.
+
+---
+
 
 ## Important Rules and Best Practices
 
@@ -229,5 +279,11 @@ Follow these steps to execute the script successfully:
    ```bash
    python your_script_name.py
    ```
+   
+---
+   
+## Video Overview  
+   *A short video walkthrough will be provided explaining the script's features and usage.*
+   
 
 **Note:** Avoid hardcoding sensitive credentials in the script; use environment variables or configuration files instead.
