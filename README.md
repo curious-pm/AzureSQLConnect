@@ -5,7 +5,7 @@
 
 This repository demonstrates how to interact with an Azure-hosted SQL Database using Python. The provided script showcases how to connect to the database, check for existing columns, add missing ones, insert sample data, and retrieve records.
 
-**Note:** This repository is for educational purposes only.
+
 ---
 ## What the Code Does  
 The code helps users connect to an Azure SQL Database, verify table structures, add missing columns, insert sample data, and retrieve records for analysis. It ensures smooth interaction with the database and follows best practices for secure operations.
